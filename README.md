@@ -46,7 +46,7 @@ The project implements two algorithms for managing file access and reorganizatio
 ## File Descriptions
 
 ### 1. `COMP108Cab.java`
-- **Description**: Implements the filing cabinet using a linked list. Contains methods to handle file requests and to update the cabinet using both the **Append if Miss** and **Frequency Count** algorithms.
+- **Description**: Implements the filing cabinet using a linked list. Contains methods to handle file requests and to update the cabinet using both the **Append if Miss** and **Frequency Count** algorithms. Also contains time complexity analysis for each algorithm.
 - **Key Methods**:
   - `appendIfMiss()`: Handles file requests using the append-if-miss strategy.
   - `frequencyCount()`: Handles file requests using the frequency count strategy.
