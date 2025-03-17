@@ -45,24 +45,24 @@ The project implements two algorithms for managing file access and reorganizatio
 
 ## File Descriptions
 
-### 1. `COMP108Cab.java`
+### 1. `Cab.java`
 - **Description**: Implements the filing cabinet using a linked list. Contains methods to handle file requests and to update the cabinet using both the **Append if Miss** and **Frequency Count** algorithms. Also contains time complexity analysis for each algorithm.
 - **Key Methods**:
   - `appendIfMiss()`: Handles file requests using the append-if-miss strategy.
   - `frequencyCount()`: Handles file requests using the frequency count strategy.
   - Other methods to handle the linked list (cabinet)
 
-### 2. `COMP108CabApp.java`
+### 2. `CabApp.java`
 - **Description**: The main application that initializes the filing cabinet, processes the sequence of file requests, and prints the results (final cabinet state and total cost for each algorithm).
 
-### 3. `FilingCabinetOutput.java`
+### 3. `CabOutput.java`
 - **Description**: Provides methods to output the cabinet's state and the cost of each request.
 
-## 4. `COMP108Node.java`
+## 4. `Node.java`
 - **Description**: This class defines a node in the doubly linked list representing the file cabinet. Each node stores frequency counter (freq) used for reordering files based on the Frequency Count algorithm.
 
 ## Run
-Run the COMP108CabOutput.java program and provide the following inputs:
+Run the CapApp.java program and provide the following inputs:
 
 - The size of the initial file cabinet (between 1 and 10 inclusively)
 - Initial content of the file cabinet (all positive integers)
